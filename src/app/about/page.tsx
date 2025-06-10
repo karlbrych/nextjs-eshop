@@ -15,7 +15,7 @@ export default function AboutPage() {
       <p className="text-lg mb-4">
         Děkujeme, že nás podporuješ. Bez tebe by to nešlo! 🧡
       </p>
-      <p className="text-base text-gray-600">Tým FloralShop.cz</p>
+      <p className="text-base text-gray-600">Tým FlorbalShop.cz</p>
       <Image
         src="/images/about-us.jpg"
         alt="O nás"
