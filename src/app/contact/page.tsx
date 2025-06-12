@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import { contactUtils } from "../utils/contact-utils";
 import Image from "next/image";
 import { routes } from "../utils/navbar-util";
+import ContactForm from "../components/ContactForm";
 export default function KontaktPage() {
   return (
     <>
@@ -32,6 +33,8 @@ export default function KontaktPage() {
             priority
         ></Image>
         <p className="text-sm text-gray-600 mb-2 pt-5">George W Bush - mluvčí FlorbalShop.cz</p>
+        <h1 className="text-4xl font-bold mb-6 pt-20">Chceš nám napsat? Kontaktuj nás zprávou</h1>
+        <ContactForm></ContactForm>
     </main>
     </>
   );
